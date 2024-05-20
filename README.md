@@ -1,10 +1,43 @@
 # awesome-LLMs-finetuning
-Collection of resources for finetuning Large Language Models (LLMs). 
+Collection of resources for practitioners to play with Large Language Models (LLMs). This list includes tools, software, libraries, datasets, research papers, and other resources related to LLMs fine-tuning.
+
+## Most Recent Update & News:
+- May 2024, add Kaggle & Colab Notebooks section.
+
+**LLM Quality**
+
+<img src="./images/llm_compare.png" style="width:1200px">
+
+Source: https://artificialanalysis.ai/models/llama-3-instruct-70b
+
+## Kaggle & Colab Notebooks
+- [Prompting Llama 3 like a Pro](https://www.kaggle.com/code/declanide/prompting-llama-3-like-a-pro)
+- [LLaVa via Ollama - Image Annotation](https://www.kaggle.com/code/alfathterry/llava-via-ollama-image-annotation)
+
+## LLM Backbones
+- Meta
+    - LLaMA
+        - [Llama 3](https://llama.meta.com/llama3/): Now available with both 8B and 70B pretrained and instruction-tuned versions to support a wide range of applications.
+        - [Vicuna-13B](https://lmsys.org/blog/2023-03-30-vicuna/), an open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT. 
+    - [OPT](https://huggingface.co/docs/transformers/en/model_doc/opt) was proposed in Open Pre-trained Transformer Language Models by Meta AI. OPT is a series of open-sourced large causal language models which perform similar in performance to GPT3.
+- Google
+    - [Gemma](https://huggingface.co/blog/gemma) is a transformer-based large language model developed by Google AI (2B, 7B).
+    - [PaLM](https://ai.google/discover/palm2/) is a 540 billion parameter transformer-based large language model developed by Google AI.
+    - [Chinchilla](https://en.wikipedia.org/wiki/Chinchilla_(language_model)) is a family of large language models developed by the research team at DeepMind, presented in March 2022.
+- [Mistral AI](https://mistral.ai/)
+    - [Mistral 7B](https://github.com/mistralai/mistral-src?tab=readme-ov-file)
+- Phi-3: Phi-3 Mini is a 3.8B parameters, lightweight, state-of-the-art open model trained with the Phi-3 datasets that includes both synthetic data and the filtered publicly available websites data with a focus on high-quality and reasoning dense properties.
+- [Qwen](https://github.com/QwenLM/Qwen) (通义千问) is the large language model family built by Alibaba Cloud.
+
+### Multi-Modal LLMs
+- [LLaVA](https://github.com/haotian-liu/LLaVA)
+- [Flamingo](https://arxiv.org/abs/2204.14198)
+
 
 
 ## GitHub projects
-
-- [LlamaIndex](https://github.com/run-llama/llama_index) 🦙: A data framework for your LLM applications. (23010 stars)
+- [Ollama](https://github.com/ollama/ollama) Get up and running with Llama 3, Mistral, Gemma, and other large language models. (67.8k stars)
+- [LlamaIndex](https://github.com/run-llama/llama_index) 🦙: A data framework for your LLM applications. (23k stars)
 - [Petals](https://github.com/bigscience-workshop/petals) 🌸: Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading. (7768 stars)
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): An easy-to-use LLM fine-tuning framework (LLaMA-2, BLOOM, Falcon, Baichuan, Qwen, ChatGLM3). (5532 stars)
 - [lit-gpt](https://github.com/Lightning-AI/lit-gpt): Hackable implementation of state-of-the-art open-source LLMs based on nanoGPT. Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training. Apache 2.0-licensed. (3469 stars)
@@ -39,5 +72,10 @@ Collection of resources for finetuning Large Language Models (LLMs).
 - [Alpaca.cpp](https://sourceforge.net/projects/alpaca-cpp.mirror/): Run a fast ChatGPT-like model locally on your device. A combination of the LLaMA foundation model and an open reproduction of Stanford Alpaca for instruction-tuned fine-tuning. 🦙
 - [promptfoo](https://sourceforge.net/projects/promptfoo.mirror/): Evaluate and compare LLM outputs, catch regressions, and improve prompts using automatic evaluations and representative user inputs. 📊
 
+## Blogs
+- https://www.zhihu.com/question/655951646/answer/3498544864
+- https://zhuanlan.zhihu.com/p/680955430
+
 ## This repo is based on the following resources
 - [Awesome LLMs Fine-Tuning](https://github.com/Curated-Awesome-Lists/awesome-llms-fine-tuning/tree/main)
+- Kaggle
