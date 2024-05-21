@@ -6,7 +6,7 @@ This repos serves as a collection of resources I've found while learning LLMs. I
 ## Most Recent Update & News:
 - May 2024, add Kaggle & Colab Notebooks section.
 
-## LLM Performance & Concepts
+## 1. LLM Performance & Concepts
 
 <img src="./images/llm_compare.png" style="width:1200px">
 
@@ -20,14 +20,24 @@ Source: https://artificialanalysis.ai/models/llama-3-instruct-70b
   > - [Yet Another LLM Leaderboard](https://huggingface.co/spaces/mlabonne/Yet_Another_LLM_Leaderboard) - Leaderboard made with LLM AutoEval using Nous benchmark suite.
   > - [OpenCompass 2.0 LLM Leaderboard](https://rank.opencompass.org.cn/leaderboard-llm-v2) - OpenCompass is an LLM evaluation platform, supporting a wide range of models (InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.
 
+### Concepts
 - RLHF - Reinforcement Learning from Human feedback
 - **Alignment** in large language models (LLMs) refers to the degree to which the model's behavior aligns with human intentions, values, and goals. Alignment teaches the model the style or format for interacting with users, to expose the knowledge and capabilities that it has already learned during pretraining
 
-## Kaggle & Colab Notebooks
+### Kaggle & Colab Notebooks
 - [Prompting Llama 3 like a Pro](https://www.kaggle.com/code/declanide/prompting-llama-3-like-a-pro)
 - [LLaVa via Ollama - Image Annotation](https://www.kaggle.com/code/alfathterry/llava-via-ollama-image-annotation)
 
-## LLM Backbones
+### Courses & Lectures
+- [Stanford] CS224N-Lecture 11: Prompting, Instruction Finetuning, and RLHF [Slides](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1234/slides/cs224n-2023-lecture11-prompting-rlhf.pdf)
+- [UWaterloo] CS 886: Recent Advances on Foundation Models [Homepage](https://cs.uwaterloo.ca/~wenhuche/teaching/cs886/)
+
+
+### Blogs
+- https://www.zhihu.com/question/655951646/answer/3498544864
+- https://zhuanlan.zhihu.com/p/680955430
+
+## 2. LLM Backbones
 - Meta
     - LLaMA
         - [Llama 3](https://llama.meta.com/llama3/): Now available with both 8B and 70B pretrained and instruction-tuned versions to support a wide range of applications.
@@ -42,6 +52,9 @@ Source: https://artificialanalysis.ai/models/llama-3-instruct-70b
     - [Mistral 7B](https://github.com/mistralai/mistral-src?tab=readme-ov-file)
 - [Adept](https://www.adept.ai/blog/fuyu-8b)
     - [Fuyu](https://huggingface.co/adept/fuyu-8b), October 17, 2023, Adept AI announced the release of Fuyu, an 8 billion parameter language model.
+- Shanghai AI Laboratory
+    - [InternVL](https://github.com/OpenGVLab/InternVL)
+    - [InternLM2](https://github.com/InternLM/InternLM) [paper](https://arxiv.org/abs/2403.17297)
 - Phi-3: Phi-3 Mini is a 3.8B parameters, lightweight, state-of-the-art open model trained with the Phi-3 datasets that includes both synthetic data and the filtered publicly available websites data with a focus on high-quality and reasoning dense properties.
 - [Qwen](https://github.com/QwenLM/Qwen) (通义千问) is the large language model family built by Alibaba Cloud.
 - [PanGu-α](https://openi.org.cn/pangu/) - PanGu-α is a 200B parameter autoregressive pretrained Chinese language model develped by Huawei Noah's Ark Lab, MindSpore Team and Peng Cheng Laboratory.
@@ -51,17 +64,24 @@ Source: https://artificialanalysis.ai/models/llama-3-instruct-70b
 - [Flamingo](https://arxiv.org/abs/2204.14198)
 
 
-## LLM and 3D
+## 3. LLM and 3D
 ### Embedding
 - ULIP-2: Towards Scalable Multimodal Pre-training For 3D Understanding, CVPR 2024. [Code](https://github.com/salesforce/ULIP)
 - Point-BERT: Pre-Training 3D Point Cloud Transformers with Masked Point Modeling, CVPR 2022. [Code](https://github.com/lulutang0608/Point-BERT)
+
+### Generation
+- Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation, 2024. [Project](https://shihaozhaozsh.github.io/LaVi-Bridge), [Code](https://github.com/ShihaoZhaoZSH/LaVi-Bridge)
+- DiffusionGPT: LLM-Driven Text-to-Image Generation System, 2024. [Project](https://diffusiongpt.github.io/), [Code](https://github.com/DiffusionGPT/DiffusionGPT)
+- Self-correcting LLM-controlled Diffusion Models, CVPR 2024. [Project](https://self-correcting-llm-diffusion.github.io/), [Code](https://github.com/tsunghan-wu/SLD)
+- LLM-grounded Diffusion: Enhancing Prompt Understanding of Text-to-Image Diffusion Models with Large Language Models, 2023. [Code](https://github.com/TonyLianLong/LLM-groundedDiffusion)
+- ELLA: Equip Diffusion Models with LLM for Enhanced Semantic Alignment, 2024. [Project](https://ella-diffusion.github.io/), [Code](https://github.com/TencentQQGYLab/ELLA)
 
 ### Unerstanding
 - 3D-LLM: Injecting the 3D World into Large Language Models, 2023. [Project](https://vis-www.cs.umass.edu/3dllm/)
 - Point-bind & point-llm: Aligning point cloud with multi-modality for 3d understanding, generation, and instruction following, [Code](https://github.com/ZiyuGuo99/Point-Bind_Point-LLM)
 - LiDAR-LLM: Exploring the Potential of Large Language Models for 3D LiDAR Understanding
 
-## GitHub projects
+## 4. Fine-Tuning
 ### Papers
 - Mantis: Interleaved Multi-Image Instruction Tuning, 2024. [Project](https://tiger-ai-lab.github.io/Mantis/), [Code](https://github.com/TIGER-AI-Lab/Mantis)
 - LIMA: Less Is More for Alignment, NeurIPS 2023. [Project](https://huggingface.co/papers/2305.11206)
@@ -92,7 +112,7 @@ Source: https://artificialanalysis.ai/models/llama-3-instruct-70b
 - [awesome-llm-human-preference-datasets](https://github.com/glgh/awesome-llm-human-preference-datasets) : A curated list of Human Preference Datasets for LLM fine-tuning, RLHF, and eval. :star: 124
 - [llm_finetuning](https://github.com/taprosoft/llm_finetuning) : Convenient wrapper for fine-tuning and inference of Large Language Models (LLMs) with several quantization techniques (GTPQ, bitsandbytes). :star: 114
 
-## Tools & Software
+## 5. Tools & Software
 
 - [LLaMA Efficient Tuning](https://sourceforge.net/projects/llama-efficient-tuning.mirror/) 🛠️: Easy-to-use LLM fine-tuning framework (LLaMA-2, BLOOM, Falcon).
 - [H2O LLM Studio](https://sourceforge.net/projects/h2o-llm-studio.mirror/) 🛠️: Framework and no-code GUI for fine-tuning LLMs.
@@ -106,14 +126,6 @@ Source: https://artificialanalysis.ai/models/llama-3-instruct-70b
 - [Alpaca.cpp](https://sourceforge.net/projects/alpaca-cpp.mirror/): Run a fast ChatGPT-like model locally on your device. A combination of the LLaMA foundation model and an open reproduction of Stanford Alpaca for instruction-tuned fine-tuning. 🦙
 - [promptfoo](https://sourceforge.net/projects/promptfoo.mirror/): Evaluate and compare LLM outputs, catch regressions, and improve prompts using automatic evaluations and representative user inputs. 📊
 
-## Courses & Lectures
-- [Stanford] CS224N-Lecture 11: Prompting, Instruction Finetuning, and RLHF [Slides](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1234/slides/cs224n-2023-lecture11-prompting-rlhf.pdf)
-- [UWaterloo] CS 886: Recent Advances on Foundation Models [Homepage](https://cs.uwaterloo.ca/~wenhuche/teaching/cs886/)
-
-
-## Blogs
-- https://www.zhihu.com/question/655951646/answer/3498544864
-- https://zhuanlan.zhihu.com/p/680955430
 
 ## This repo is based on the following resources
 - [Awesome LLMs Fine-Tuning](https://github.com/Curated-Awesome-Lists/awesome-llms-fine-tuning/tree/main)
