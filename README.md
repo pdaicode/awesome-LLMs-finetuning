@@ -90,6 +90,7 @@ Source: https://artificialanalysis.ai/models/llama-3-instruct-70b
 - Zephyr: Direct Distillation of LM Alignment. Lewis Tunstall et. aI arXiv preprint 2023. arXiv:2310.16944
 
 ### Frameworks
+- [AutoTrain](https://github.com/huggingface/autotrain-advanced) No code fine-tuning of LLMs and other machine learning tasks.
 - [Ollama](https://github.com/ollama/ollama) Get up and running with Llama 3, Mistral, Gemma, and other large language models. (67.8k stars)
 - [LlamaIndex](https://github.com/run-llama/llama_index) 🦙: A data framework for your LLM applications. (23k stars)
 - [Petals](https://github.com/bigscience-workshop/petals) 🌸: Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading. (7768 stars)
