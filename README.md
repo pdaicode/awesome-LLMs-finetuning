@@ -64,22 +64,29 @@ Source: https://artificialanalysis.ai/models/llama-3-instruct-70b
 - [Flamingo](https://arxiv.org/abs/2204.14198)
 
 
-## 3. LLM and 3D
+## 3. LLM and Applications
+### Unerstanding
+- When IoT Meet LLMs: Applications and Challenges, IEEE International Conference on Big Data (IEEE BigData) 2024. [Paper](https://arxiv.org/abs/2411.17722)
+- IoT-LLM: Enhancing Real-World IoT Task Reasoning with Large Language Models, 2024. [Paper](https://arxiv.org/abs/2410.02429)
+- MultiIoT: Benchmarking Machine Learning for the Internet of Things, 2024. [Paper](https://arxiv.org/abs/2311.06217)
+- 3D-LLM: Injecting the 3D World into Large Language Models, 2023. [Project](https://vis-www.cs.umass.edu/3dllm/)
+- Point-bind & point-llm: Aligning point cloud with multi-modality for 3d understanding, generation, and instruction following, [Code](https://github.com/ZiyuGuo99/Point-Bind_Point-LLM)
+- LiDAR-LLM: Exploring the Potential of Large Language Models for 3D LiDAR Understanding
+
 ### Embedding
 - ULIP-2: Towards Scalable Multimodal Pre-training For 3D Understanding, CVPR 2024. [Code](https://github.com/salesforce/ULIP)
 - Point-BERT: Pre-Training 3D Point Cloud Transformers with Masked Point Modeling, CVPR 2022. [Code](https://github.com/lulutang0608/Point-BERT)
 
-### Generation
+### 2D & 3D Generation
+Since 2D and 3D generation are closely related, we list some of the most recent works in both areas.
+- V3D: Video Diffusion Models are Effective 3D Generators, 2024. [Project](https://heheyas.github.io/V3D/), [Code](https://github.com/heheyas/V3D)
+- ELLA: Equip Diffusion Models with LLM for Enhanced Semantic Alignment, 2024. [Project](https://ella-diffusion.github.io/), [Code](https://github.com/TencentQQGYLab/ELLA)
 - Bridging Different Language Models and Generative Vision Models for Text-to-Image Generation, 2024. [Project](https://shihaozhaozsh.github.io/LaVi-Bridge), [Code](https://github.com/ShihaoZhaoZSH/LaVi-Bridge)
 - DiffusionGPT: LLM-Driven Text-to-Image Generation System, 2024. [Project](https://diffusiongpt.github.io/), [Code](https://github.com/DiffusionGPT/DiffusionGPT)
 - Self-correcting LLM-controlled Diffusion Models, CVPR 2024. [Project](https://self-correcting-llm-diffusion.github.io/), [Code](https://github.com/tsunghan-wu/SLD)
 - LLM-grounded Diffusion: Enhancing Prompt Understanding of Text-to-Image Diffusion Models with Large Language Models, 2023. [Code](https://github.com/TonyLianLong/LLM-groundedDiffusion)
-- ELLA: Equip Diffusion Models with LLM for Enhanced Semantic Alignment, 2024. [Project](https://ella-diffusion.github.io/), [Code](https://github.com/TencentQQGYLab/ELLA)
 
-### Unerstanding
-- 3D-LLM: Injecting the 3D World into Large Language Models, 2023. [Project](https://vis-www.cs.umass.edu/3dllm/)
-- Point-bind & point-llm: Aligning point cloud with multi-modality for 3d understanding, generation, and instruction following, [Code](https://github.com/ZiyuGuo99/Point-Bind_Point-LLM)
-- LiDAR-LLM: Exploring the Potential of Large Language Models for 3D LiDAR Understanding
+
 
 ## 4. Fine-Tuning
 ### Papers
